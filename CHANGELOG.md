@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-10-05
+
+### Fixed
+
+- Compatibilidad de avances con arrays heredados y objetos indexados por ID en dnd5e 6.x; se conserva el contenedor y solo se traducen etiquetas y pistas, sin fusionar mecánicas.
+
+### Added
+
+- Pruebas de regresión y evidencia de validación en `dev-tools/VALIDACION-COMPATIBILIDAD-6X.md`.
+
+
 ## [1.0.1] - 2026-10-04
 
 - Traducido el título visible `Subclass Features` como `Rasgos de subclase`.

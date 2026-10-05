@@ -118,3 +118,11 @@ test("structured converters translate without discarding mechanical fields", () 
   })[0].title, "Rasgos de subclase");
 
 });
+
+test("advancements support keyed D&D5e 6 data and preserve mechanics", () => {
+  const source = { advance: { _id: "advance", name: "Subclass Features", level: 3, configuration: { pool: 1 } } };
+  const result = clericDomainsAdvancementById(source, { advance: { title: "Rasgos de subclase", level: 20 } });
+  assert.deepEqual(result, { advance: { ...source.advance, name: "Rasgos de subclase" } });
+  assert.deepEqual(source, { advance: { _id: "advance", name: "Subclass Features", level: 3, configuration: { pool: 1 } } });
+  assert.equal(clericDomainsAdvancementById(source, undefined), source);
+});
