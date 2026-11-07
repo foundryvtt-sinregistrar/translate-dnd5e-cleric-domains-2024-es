@@ -2,6 +2,10 @@
 
 **Español** | [English](README.en.md)
 
+<p align="center">
+  <img src="docs/foundry/assets/banner-cleric-domains.webp" alt="D&D5e Cleric Domains: traducción al español">
+</p>
+
 ![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green) ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue) ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue) ![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue) ![Babele minimum](https://img.shields.io/badge/Babele_min-2.9.1%2B-orange) ![PHB 2024 required](https://img.shields.io/badge/PHB_2024-required-orange)
 
 ![Foundry VTT](https://img.shields.io/badge/Foundry_VTT-14.367%2B-green)
@@ -54,6 +58,22 @@ Comunica incidencias en el [repositorio de la traducción](https://github.com/fo
 ## Desarrollo
 
 El contrato completo de IDs está en `LOCALIZATION.md` del módulo base. Antes de publicar, ejecuta `npm test`: la prueba compara las 19 entradas, las tres carpetas y todos los IDs anidados con `dnd5e-2024-cleric-domains/data/`.
+
+## Capturas de pantalla
+
+Los tres dominios de clérigo incluidos en la traducción:
+
+![Dominios del Conocimiento, la Naturaleza y la Tempestad](docs/foundry/assets/three-cleric-domains.png)
+
+Selección de un dominio de clérigo al alcanzar el nivel 3, con la traducción española activa:
+
+![Selector de dominio de clérigo de nivel 3 en español](docs/foundry/assets/screenshots/Cleric-level3-choise-school-es.png)
+
+La misma pantalla con el compendio base en inglés:
+
+![Level 3 Cleric domain selector in English](docs/foundry/assets/screenshots/Cleric-level3-choise-school-en.png)
+
+Consulta también la [descripción pública para Foundry](docs/foundry/description-foundry.html).
 
 ## Licencia y créditos
 
