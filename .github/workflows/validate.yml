@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           repository: foundryvtt-sinregistrar/dnd5e-2024-cleric-domains
-          ref: v0.0.2
+          ref: v1.14.0
           path: .deps/dnd5e-2024-cleric-domains
           persist-credentials: false
       - uses: actions/setup-node@v4

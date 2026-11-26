@@ -10,7 +10,7 @@ npm run test:release
 npm run build:release
 ```
 
-CI checks out base module tag `v0.0.2` into `.deps/dnd5e-2024-cleric-domains` and sets `CLERIC_DOMAINS_BASE_PATH` before running the translation tests.
+CI checks out base module tag `v1.14.0` into `.deps/dnd5e-2024-cleric-domains` and sets `CLERIC_DOMAINS_BASE_PATH` before running the translation tests.
 
 ## Release procedure
 
