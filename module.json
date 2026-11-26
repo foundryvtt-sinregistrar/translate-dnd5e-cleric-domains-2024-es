@@ -10,14 +10,14 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": { "minimum": "6.0.3", "verified": "6.0.6" }
+        "compatibility": { "minimum": "6.0.3", "verified": "6.1.1" }
       }
     ],
     "requires": [
       {
         "id": "dnd5e-2024-cleric-domains",
         "type": "module",
-        "compatibility": { "minimum": "0.0.2", "verified": "0.0.2" }
+        "compatibility": { "minimum": "0.0.2", "verified": "1.14.0" }
       },
       { "id": "dnd-players-handbook", "type": "module" },
       {
